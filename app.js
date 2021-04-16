@@ -1,4 +1,4 @@
-console.log("Hi from Different file")
-
-var username=prompt("Gime your username");
-alert("This script works "+username)
+var btnTranslate=document.querySelector("#btn-translate");
+btnTranslate.addEventListener("click",function clickEventHandler(){
+    console.log("clicked");
+})
